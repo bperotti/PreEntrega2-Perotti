@@ -1,0 +1,17 @@
+//imports base
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/utilities';
+
+//imports components
+@import 'components/footer';
+@import 'components/navbar';
+
+//imports layout
+@import 'layout/contacto';
+@import 'layout/educadores';
+@import 'layout/index';
+@import 'layout/info';
+@import 'layout/medias';
+@import 'layout/quiero';
+@import 'layout/animaciones';

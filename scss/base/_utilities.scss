@@ -1,0 +1,12 @@
+@mixin flex ($background-position, $background-size, $justify-content, $align-items){
+    display: flex;
+    background-position: $background-position,;
+    background-size:$background-size;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin height ($min-height,$max-height){
+    min-height: $min-height;
+    max-height: $max-height;
+}

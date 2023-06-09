@@ -1,0 +1,18 @@
+/* footer */
+footer {
+    background-color:$main-color;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: $main-font;
+    color: #191919;
+    z-index: 22;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #191919;
+    
+}

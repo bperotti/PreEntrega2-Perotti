@@ -1,0 +1,38 @@
+/*contact*/
+.contacto{
+    display: flex;
+    width: 100%;
+    background-image: url('../imagenes/20230430_124736.jpg');
+    @include flex (center,cover,center,center);
+    @include height (80vh,100%);
+    color: $main-color;
+    font-family: $main-font;
+    h1 {
+        color: $main-color;
+        font-size: 100px;
+    }
+}
+
+.card-title{
+    font-family: $main-font;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;    
+}
+
+.card-img-bottom iframe{
+   width: 100%;
+   height: 100%;
+}
+
+.cards__conteiner {
+    width: 100%;
+    padding: 20px;
+}
+
+.cuerpo__contact {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}

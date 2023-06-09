@@ -1,0 +1,49 @@
+/*info*/
+.info {
+    display: flex;
+    width: 100%;
+    background-image: url('../imagenes/info3.jpg');
+    @include flex (center,cover,center,center);
+    @include height (80vh,100%);
+    color: $main-color;
+
+}
+
+.info__content h1{
+    font-family: $main-font;
+    font-size: 100px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+
+}
+.parrafo {
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: $main-color;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.parrafo img {
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.parrafo h1 {
+    padding: 20px;
+}
+
+.info_parrafo {
+    display: inline-block;
+    font-size: 30px;
+    width: 50%;
+    margin: 10px;
+    padding: 50px 10px;
+    text-align: center;
+}

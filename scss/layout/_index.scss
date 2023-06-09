@@ -1,0 +1,40 @@
+/* main */
+
+.row {
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    background-image: url('../imagenes/666+.jpg');
+    @include flex (center,cover,center,center);
+    @include height (80vh,100%);
+    color: $main-color;
+    h1 {
+        font-family: $main-font;
+        font-size: 100px;
+        text-align: center;
+    }
+}
+
+.title-card {
+    font-family: $main-font;
+    font-size: 100px;
+    text-align: center;
+}
+
+.text-card {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #191919;
+    a {
+        color: #191919;
+    }
+
+}
+.carousel-item {
+    height: 900px;
+    font-size: 30px;
+}

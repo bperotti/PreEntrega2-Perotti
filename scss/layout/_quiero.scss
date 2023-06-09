@@ -1,0 +1,55 @@
+/*quiero ser scout*/
+.top {
+    display: flex;
+    width: 100%;
+    background-image: url('../imagenes/DSC_0113.NEF');
+    @include flex (center,cover,center,center);
+    @include height (80vh,100%);
+    color: $main-color;
+}
+
+.top__content {
+    font-family:$main-font;
+    font-size: 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+    h1 {
+        font-size: 100px;
+    }
+}
+
+.video {
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: $main-color;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.video__text {
+    display: inline-block;
+    font-size: 20px;
+    width: 49%;
+    margin: 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.main_cuerpo {
+    background-image: url('../imagenes/DSC_0113.NEF');
+    background-position: center;
+    background-size: cover;
+}
+
+.cuerpo {
+    color: #191919;
+    text-decoration: none;
+    font-family: $main-font;
+    margin: 10px;
+    padding: 20px;
+    font-display: right;
+}

@@ -1,0 +1,22 @@
+/* menu-nav */
+#inicio {
+    text-align: left;
+}
+
+nav {
+    background-color: $main-color;
+    padding: 10px;
+}
+
+.nav-item{
+    .nav-link {
+        color: #191919;
+        text-decoration: none;
+        font-family: $main-font;
+        font-size: 20px;
+        transition: .3s;
+        &:hover, &:focus {
+            color: #009FBD;
+        }
+    }
+}
